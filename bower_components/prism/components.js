@@ -167,6 +167,11 @@ var components = {
 			"require": "clike",
 			"owner": "Golmote"
 		},
+		"django": {
+			"title": "Django/Jinja2",
+			"require": "markup",
+			"owner": "romanvm"
+		},
 		"diff": {
 			"title": "Diff",
 			"owner": "uranusjr"
@@ -271,6 +276,11 @@ var components = {
 			"title": "Java",
 			"require": "clike",
 			"owner": "sherblot"
+		},
+		"jolie": {
+			"title": "Jolie",
+			"require": "clike",
+			"owner": "thesave"
 		},
 		"json": {
 			"title": "JSON",
@@ -448,6 +458,11 @@ var components = {
 			"require": ["markup", "javascript"],
 			"owner": "vkbansal"
 		},
+		"reason": {
+			"title": "Reason",
+			"require": "clike",
+			"owner": "Golmote"
+		},
 		"rest": {
 			"title": "reST (reStructuredText)",
 			"owner": "Golmote"
@@ -533,6 +548,11 @@ var components = {
 			"require": "javascript",
 			"owner": "vkbansal"
 		},
+		"vbnet": {
+			"title": "VB.Net",
+			"require": "basic",
+			"owner": "Bigsby"
+		},
 		"verilog": {
 			"title": "Verilog",
 			"owner": "a-rey"
@@ -572,13 +592,20 @@ var components = {
 		"show-invisibles": "Show Invisibles",
 		"autolinker": "Autolinker",
 		"wpd": "WebPlatform Docs",
+		"custom-class": {
+			"title": "Custom Class",
+			"owner": "dvkndn",
+			"noCSS": true
+		},
 		"file-highlight": {
 			"title": "File Highlight",
 			"noCSS": true
 		},
 		"show-language": {
 			"title": "Show Language",
-			"owner": "nauzilus"
+			"owner": "nauzilus",
+			"noCSS": true,
+			"require": "toolbar"
 		},
 		"jsonp-highlight": {
 			"title": "JSONP Highlight",
@@ -649,6 +676,16 @@ var components = {
 		"data-uri-highlight": {
 			"title": "Data-URI Highlight",
 			"owner": "Golmote",
+			"noCSS": true
+		},
+		"toolbar": {
+			"title": "Toolbar",
+			"owner": "mAAdhaTTah"
+		},
+		"copy-to-clipboard": {
+			"title": "Copy to Clipboard Button",
+			"owner": "mAAdhaTTah",
+			"require": "toolbar",
 			"noCSS": true
 		}
 	}
